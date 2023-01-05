@@ -1,0 +1,181 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	font-family: roboto,sans-serif;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+body{
+	position: fixed;
+	display: table;
+	overflow: hidden;
+	background: #06114F;
+}
+header{
+	position: fixed;
+	background: transparent;
+	width: 100%;
+	height: 50px;
+}
+#logo{
+	position: fixed;
+	right: 0;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: bolder;
+}
+#Menu{
+	position:fixed;
+	width: 40px;
+	padding: 5px;
+}
+#Trending{
+	position: fixed;
+	width: 100%;
+	top: 50px;
+	background: beige;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	overflow: hidden;
+	display: block;
+}
+#Premiering{
+	position: fixed;
+	width: 100%;
+	top: 50px;
+	background: beige;
+	bottom: 0;
+	overflow: hidden;
+	display: none;
+
+}
+#Animation,#Movies,#Series,#About-Us,#Updates{
+	position: fixed;
+	width: 100%;
+	top: 50px;
+	background:#06114F ;
+	bottom: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	display: none;
+}
+#Menu-Div{
+	width: auto;
+	top: 50px;
+	bottom: 0;
+	background: #06114F;
+	display: none;
+	position: fixed;
+}
+#Home,#animation,#movies,#series,#about-us,#premiering,#updates,#user{
+	padding: 10px;
+	position: relative;
+}
+h1{
+	position: relative;
+	text-align: center;	
+}
+p{
+	position: relative;
+	padding: 10px;
+}
+#img{
+	top: 10px;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	left: 0;
+	bottom: 0;
+}
+iframe{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	border: none;
+}
+#advert{
+			width: 100%;
+			height: 100%;
+			background: transparent;
+			position: absolute;
+			overflow: hidden;
+			display: block;
+			left: 0;
+			text-align: center;
+		}
+figure{
+			position: absolute;
+			width: 500%;
+			height: 100%;
+			margin: 0;
+			left: 0;			
+			animation: 30s slider infinite;
+		}
+#img1{
+			float: left;
+			height: 100%;
+			width: 20%;
+		}
+@keyframes slider{
+			0%{
+				left: 0;
+			}
+			20%{
+				left: -100%;
+			}
+			25%{
+				left: -100%;
+			}
+			40%{
+				left: -100%;
+			}
+			50%{
+				left: -200%;
+			}
+			70%{
+				left: -200%;
+			}
+			75%{
+				left:-300% ;
+			}
+			95%{
+				left: -300%;
+			}
+			100%{
+				left: -400%;
+			}
+		}
+#input{
+	width: 100%;
+	height: 100%;
+	background: #06114F;
+	position: fixed;
+}
+h2{
+	padding: 10px;
+	font-size: 20px;
+}
+#mail,#UserName{
+	width: 100%;
+	background: transparent;
+	color: white;
+	text-align: center;
+	border: 1px solid white;
+	height: 30px;
+	border-radius: 20px;
+}
+button{
+	text-align: center;
+	background: transparent;
+	width: 100px;
+	left: calc(100% - 60%);
+	position: absolute;
+	border: 1px solid white;
+	border-radius: 20px;
+}
