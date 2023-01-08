@@ -3,6 +3,6 @@ let SeriesData='\
 <a href="https://drive.google.com/uc?export=download&id=1GwOtgvXWoHz-m79umzEi-E5tHihRONfQ"><img loading="lazy" id="img" src="https://drive.google.com/uc?export=download&id=1VXe1VKpmdiBGKly61TV7gmTYYyFLnKU_">\
 '
 /*
-<a href=""><img loading="lazy" id="img" src="">\
+<a href=""><img loading="lazy" id="img" src=""></a>\
 
 */
