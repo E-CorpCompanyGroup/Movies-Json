@@ -1,4 +1,4 @@
-let AnimationData='\
+let AnimationData ='\
 <a href="https://drive.google.com/uc?export=download&id=1j13a5x6-pHx-IlFLSUe4fkktlI0p_4M7" ><img loading="lazy" id="img" src="https://drive.google.com/uc?export=download&id=1Rlg-rlUIEd5T4ChsZ1Zi3uS8gnbmzSSO"></a>\
 <a href="https://drive.google.com/uc?export=download&id=1GKqTchHWjLDQdSJdV74xozTfwfaLF2TQ" ><img loading="lazy" id="img" src="https://drive.google.com/uc?export=download&id=16DZCo467Ln7cZbIZW4HlN5VHCuQF_W8n"></a>\
 <a href="https://drive.google.com/uc?export=download&id=1pH5HfP-D6LtRMfVTOiP1hTCVOd30Wi8H" ><img loading="lazy" id="img" src="https://drive.google.com/uc?export=download&id=1YxFEhbvRdKWaklrbKiqukMXEEozgjNk7"></a>\
