@@ -1,5 +1,5 @@
 let NewsLetter='\
-<form action="#" id="sheetdb-form" Method="Post">\
+<form action="https://sheetdb.io/api/v1/36x4gexnl9512" id="sheetdb-form" Method="Post">\
     <h1>E-corp Company Group</h1>\
     <br>\
     <h1>News Letter SignUp</h1>\
