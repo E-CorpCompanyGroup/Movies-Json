@@ -12,7 +12,7 @@ let NewsLetter='\
     <br>\
     <input type="email" name="Email" placeholder="Enter Your Email" id="Email" required>\
     <br><br>\
-    <button onclick="Login()">Sumbit</button>\
+    <button onclick="Login()">Submit</button>\
 </form>\
 ';
 function Login() {
