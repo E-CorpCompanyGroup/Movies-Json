@@ -18,9 +18,13 @@ let NewsLetter='\
 function Login() {
     let UserName=document.querySelector('#UserName');
     let Email=document.querySelector('#Email');
-    localStorage.setItem('UserName',UserName.value);
-    localStorage.setItem('Email',Email.value);
-    LoginDisplay.style.display="none"; 
+    if (Email.value!==null) {
+        localStorage.setItem('UserName',UserName.value);
+        localStorage.setItem('Email',Email.value);
+        LoginDisplay.style.display="none"; 
+    } else{
+        LoginDisplay.style.display="block";
+    }
 }
 function CheckLogin() {
     if ( localStorage.getItem('UserName',UserName.value)&&localStorage.getItem('Email',Email.value)) {
