@@ -10,7 +10,7 @@ let NewsLetter='\
     <br><br>\
     <label>Email</label>\
     <br>\
-    <input type="email" name="Email" placeholder="Enter Your Email" id="Email" required>\
+    <input type="email" name="Email" placeholder="Enter Your Email" id="Email" minlength="8" required>\
     <br><br>\
     <button onclick="Login()">Submit</button>\
 </form>\
