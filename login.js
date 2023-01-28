@@ -20,6 +20,7 @@ function Login() {
     let Email=document.querySelector('#Email');
         localStorage.setItem('MovieLanderMovieLanderMovieLanderMovieLanderMovieLanderMovieLanderUserName',UserName.value);
         localStorage.setItem('MovieLanderMovieLanderMovieLanderMovieLanderMovieLanderEmail',Email.value);
+        LoginDisplay.style.display="none"; 
 }
 function CheckLogin() {
     if ( localStorage.getItem('MovieLanderMovieLanderMovieLanderMovieLanderUserName',UserName.value)&&localStorage.getItem('MovieLanderMovieLanderMovieLanderEmail',Email.value)) {
