@@ -18,13 +18,8 @@ let NewsLetter='\
 function Login() {
     let UserName=document.querySelector('#UserName');
     let Email=document.querySelector('#Email');
-    if (Email.value!==null) {
         localStorage.setItem('MovieLanderMovieLanderMovieLanderMovieLanderMovieLanderMovieLanderUserName',UserName.value);
         localStorage.setItem('MovieLanderMovieLanderMovieLanderMovieLanderMovieLanderEmail',Email.value);
-        LoginDisplay.style.display="none"; 
-    } else{
-        LoginDisplay.style.display="block";
-    }
 }
 function CheckLogin() {
     if ( localStorage.getItem('MovieLanderMovieLanderMovieLanderMovieLanderUserName',UserName.value)&&localStorage.getItem('MovieLanderMovieLanderMovieLanderEmail',Email.value)) {
