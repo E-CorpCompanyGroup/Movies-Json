@@ -18,14 +18,14 @@ let NewsLetter='\
 function Login() {
     let UserName=document.querySelector('#UserName');
     let Email=document.querySelector('#Email');
-        localStorage.setItem('MovieLanderMovieLanderMovieLanderMovieLanderMovieLanderMovieLanderUserName',UserName.value);
-        localStorage.setItem('MovieLanderMovieLanderMovieLanderMovieLanderMovieLanderEmail',Email.value);
+        localStorage.setItem('UserName',UserName.value);
+        localStorage.setItem('Email',Email.value);
         LoginDisplay.style.display="none"; 
 }
 function CheckLogin() {
-    if ( localStorage.getItem('MovieLanderMovieLanderMovieLanderMovieLanderUserName',UserName.value)&&localStorage.getItem('MovieLanderMovieLanderMovieLanderEmail',Email.value)) {
+    if ( localStorage.getItem('UserName',UserName.value)&&localStorage.getItem('Email',Email.value)) {
         LoginDisplay.style.display="none"; 
-        userName.innerHTML=localStorage.getItem('MovieLanderMovieLanderUserName',UserName.value).toLocaleUpperCase();
-        userEmail.innerHTML=localStorage.getItem('MovieLanderEmail',Email.value).toLocaleUpperCase();
+        userName.innerHTML=localStorage.getItem('UserName',UserName.value).toLocaleUpperCase();
+        userEmail.innerHTML=localStorage.getItem('Email',Email.value).toLocaleUpperCase();
     } 
 }
